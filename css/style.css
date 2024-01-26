@@ -1886,6 +1886,7 @@ body {
   z-index: 100;
 }
 #sec03 h2 {
+  margin-top: 3rem;
   text-align: center;
   font-size: 2.5rem;
   font-weight: 600;
@@ -1893,12 +1894,16 @@ body {
 @media (max-width: 800px) {
   #sec03 h2 {
     font-size: 1.5rem;
+    margin-top: 2rem;
   }
 }
 @media (max-width: 500px) {
   #sec03 h2 {
     font-size: 1.2rem;
     max-width: 300px;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    margin-top: 3rem;
   }
 }
 #sec03 .sec03Line01 {
