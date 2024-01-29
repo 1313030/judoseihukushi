@@ -1,6 +1,3 @@
-/* JS_drawer v1.0.0 ,2022 */
-/* create by syo motoyama,2022*/
-
 document.addEventListener('DOMContentLoaded', function () {
     const toggleButton = document.querySelector('.toggleButton');
     const drawerMenu = document.getElementById('drawerMenu');

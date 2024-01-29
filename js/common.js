@@ -1,12 +1,3 @@
-
-// window.addEventListener('load', function () {
-//     setTimeout(function(){   
-//     let loadingBg = document.querySelector('.loadingWrapper');
-//     loadingBg.classList.add('activeLoad');
-// },3000);
-// });
-
-
 const faceBani = document.querySelector('.sec01fbanime');
 function faceb(){
     const targetRect = faceBani.getBoundingClientRect();
@@ -154,11 +145,7 @@ const swiper02 = new Swiper(".swiper02", {
         prevEl: ".swiper-button-prev",
     },
 
-    // allowTouchMove: false,
-    // autoheight: true,
-    // slidesPerView: 1,
-    // centeredSlides: true,
-    // spaceBetween: 5,
+  
 });
 
 
